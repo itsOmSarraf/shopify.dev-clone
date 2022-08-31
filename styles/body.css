@@ -1,0 +1,45 @@
+.body {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+
+}
+.body img{
+    width: 700px;
+}
+h1{
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 800px;
+}
+p{
+    font-weight: 400;
+    font-size:18px;
+    line-height: 28px;
+    color: #5c5f62;
+}
+h4{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: #202223;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.left-body{
+    width: 570px;
+    margin-left: 90px;
+}
+.button-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 500px;
+    gap: 20px 20px;
+}
+.button-grid button {
+    text-align: center;
+    padding: 20px 10px;
+}
+.green{
+    background-color: #EAFAF3;
+}

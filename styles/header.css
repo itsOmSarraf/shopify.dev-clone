@@ -1,0 +1,47 @@
+header, .left-section, .right-section {
+    display: flex;
+    justify-content: space-between;
+    color: #868A8B;
+    margin-left: 7px;
+}
+header{
+    position: fixed;
+    background-color: white;
+    right: 0;
+    top: 0;
+    left: 0;
+    height: 30px;
+    padding: 10px;
+    padding-top: 15px;
+    margin-bottom: 300px;
+}
+.left-section{
+    width: 650px;
+}
+.right-section{
+    width: 280px;
+    margin-right: 50px;
+}
+.left-section :hover,.right-section :hover{
+    color: #202223;
+    cursor: pointer;
+}
+header img{
+    width: 90px;
+    height: 20px;
+}
+.right-section input {
+    width: 100px;
+    border: none;
+    background-color: transparent;
+    margin-left: 2px;
+}
+.input{
+    display: flex;
+    align-items: top;
+    border: 1px solid black;
+    padding: 5px 1px;
+}
+.slash{
+    margin-right: 5px;
+}
