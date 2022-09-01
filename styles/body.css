@@ -33,16 +33,6 @@ h4{
     margin-left: 90px;
     margin-top: 150px;
 }
-.button-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 500px;
-    gap: 20px 20px;
-}
-.button-grid button {
-    text-align: center;
-    padding: 20px 10px;
-}
 .green{
     background-color: #EAFAF3;
 }
