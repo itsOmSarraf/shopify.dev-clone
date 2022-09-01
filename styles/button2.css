@@ -1,9 +1,10 @@
 .join{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 300px 300px 300px 300px;
+    column-gap: 15px;
     margin: 20px;
     row-gap: 10px;
-    background-color: #FAFBFB;
+    justify-content: center;
 }
 .button2,.notbtn{
     width: 300px;
@@ -22,7 +23,9 @@
 }
 .notbtn{
     width: 270px;
-
+}
+.notbtn :hover{
+    box-shadow: none;
 }
 .notbtn p{
     font-family: Inter;
@@ -30,6 +33,7 @@
     line-height: 24px;
     font-size: 20px;
     font-weight: 600;
+    margin-top: 5px;
 }
 .join-comm{
     width: 190px;
@@ -37,10 +41,12 @@
 .button2 p{
     font-size: 14px;
     line-height: 21px;
+    margin-top: 5px;
 }
 .button2 h2{
     font-size: 16px;
     line-height: 20px;
+    margin-top: 5px;
 }
 .comm{
     width: 180px;
