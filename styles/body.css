@@ -1,11 +1,13 @@
 .body {
     display: flex;
     justify-content: space-between;
-    margin-top: 150px;
+
 
 }
 .body img{
-    width: 700px;
+    width: 750px;
+    height: 1100px;
+    margin-top: 50px;
 }
 h1{
     font-size: 48px;
@@ -29,6 +31,7 @@ h4{
 .left-body{
     width: 570px;
     margin-left: 90px;
+    margin-top: 150px;
 }
 .button-grid {
     display: grid;

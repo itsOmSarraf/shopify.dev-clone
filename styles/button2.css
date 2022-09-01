@@ -1,0 +1,21 @@
+.join{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 20px;
+    background-color: #FAFBFB;
+}
+.button2{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    text-align: left;
+}
+.button2 p{
+    font-size: 14px;
+    line-height: 21px;
+}
+.button2 h2{
+    font-size: 16px;
+    line-height: 20px;
+}

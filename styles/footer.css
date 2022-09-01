@@ -1,0 +1,27 @@
+.footer1{
+    display: flex;
+    justify-content: space-between;
+    padding: 70px;
+    padding-left: 90px;
+    padding-right: 90px;
+    background-color: #FAFBFB;
+    margin: 15px;
+}
+.footer1 p{
+    font-size: 14px;
+}
+.footer1 h6{
+    font-size: 12px;
+}
+footer{
+    display: flex;
+    width: 500px;
+    margin-left: 110px;
+    justify-content: space-between;
+}
+footer p{
+    font-weight: 500;
+    font-family: Inter;
+    font-size: 14px;
+    line-height: 70px;
+}
