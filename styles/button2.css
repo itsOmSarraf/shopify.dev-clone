@@ -2,14 +2,37 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin: 20px;
+    row-gap: 10px;
     background-color: #FAFBFB;
 }
-.button2{
+.button2,.notbtn{
     width: 300px;
     display: flex;
     flex-direction: column;
-    padding: 5px;
+    padding: 15px;
     text-align: left;
+    border-radius: 20px;
+}
+.button2{
+    cursor: pointer;
+    border: none;
+}
+.join :hover {
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+.notbtn{
+    width: 270px;
+
+}
+.notbtn p{
+    font-family: Inter;
+    color: #202223;
+    line-height: 24px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.join-comm{
+    width: 190px;
 }
 .button2 p{
     font-size: 14px;
@@ -18,4 +41,9 @@
 .button2 h2{
     font-size: 16px;
     line-height: 20px;
+}
+.comm{
+    width: 180px;
+    height: 60px;
+    margin-bottom: 10px;
 }
