@@ -4,10 +4,15 @@
 }
     .header2{
         width: 350px;
+        opacity: 100%;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
 }
     .header2 img{
         margin-left: 45%;
-        margin-right: 50%;
+        margin-right: 45%%;
         margin-top: 3px;
 }
     .body{
