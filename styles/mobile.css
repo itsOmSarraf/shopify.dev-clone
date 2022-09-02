@@ -1,38 +1,50 @@
 @media (max-width: 700px){
+    header{
+        opacity: 0%;
+}
+    .header2{
+        width: 350px;
+}
+    .header2 img{
+        margin-left: 45%;
+        margin-right: 50%;
+        margin-top: 3px;
+}
     .body{
         display: block;
-    }
+}
     .left-body .hero1 , .left-body .hero2, .left-body .hero3{
-        width: 670px;
-        height: 200px;
+        width: 350px;
+        height: 150px;
         opacity: 100%;
         margin-top: 5px;
-    }
+}
     .right-body img{
         height: 0%;
         width: 0%;
-    }
+}
     .left-body {
-        width: 400px;
+        width: 350px;
         margin-top: 50px;
-        margin-left: 15px;
+        margin-left: 5px;
+        margin-right: 5px;
 }
     .left-body h1{
-        font-size: 32px;
+        font-size: 28px;
         line-height: 40px;
-    }
+}
     .left-body p{
         margin-top: 20px;
         font-size: 18px;
         line-height: 28px;
-    }
+}
     .left-body h4{
         font-size: 18px;
         line-height: 20px;
-    }
+}
     .button-grid {
     display: grid;
-    width: 450px;
+    width: 350px;
     grid-template-columns: 1fr;
     row-gap: 30px;
     column-gap: 30px;
@@ -41,25 +53,68 @@
     display: flex;
     background-color: #EAFAF3;
     flex-direction: column;
-    height: 400px;
+    height: 820px;
     border-radius: 30px;
-    margin: 25px;
-}
-    .join{
-    display: grid;
-    grid-template-columns: 300px;
-    column-gap: 15px;
-    margin: 20px;
-    row-gap: 10px;
+    padding: 0%;
+    margin: 0%;
+    width: 340px;
     justify-content: center;
+    padding: 10px;
+}
+    .div{
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    width: 200px;
+    margin-bottom: 25px;
+}
+.green-box {
+    width: 270px;
+    height: 250px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 1);
+    border: 2px black solid;
+    margin-top: 10px;
+}
+    .green-text {
+    width: 350px;
+}
+    .div h3{
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .div p{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .join{
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    margin-bottom: 30px;
+    margin-top: 300px;
+
 }
     .footer1{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding-left: 90px;
-    padding-right: 90px;
     background-color: #FAFBFB;
-    margin: 15px;
+    width: 350px;
     justify-content: space-between;
+    margin-top: 350px;
+    padding: 1px;
+}
+    footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 350px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+footer p{
+    font-weight: 500;
+    font-family: Inter;
+    font-size: 10px;
+    line-height: 20px;
 }
 }
